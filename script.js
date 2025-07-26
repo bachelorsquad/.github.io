@@ -104,17 +104,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Contact form handling (basic)
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+    // const contactForm = document.getElementById('contactForm');
+    // if (contactForm) {
+    //     contactForm.addEventListener('submit', function(e) {
+    //         e.preventDefault();
             
-            // In a real implementation, you would send the form data to a server
-            // For this demo, we'll just show an alert and reset the form
-            alert('Thank you for your message! In a real implementation, this would be sent to our server.');
-            this.reset();
-        });
-    }
+    //         // In a real implementation, you would send the form data to a server
+    //         // For this demo, we'll just show an alert and reset the form
+    //         alert('Thank you for your message! In a real implementation, this would be sent to our server.');
+    //         this.reset();
+    //     });
+    // }
     
     // Open external links in new tab
     document.querySelectorAll('a[href^="http"]').forEach(link => {
